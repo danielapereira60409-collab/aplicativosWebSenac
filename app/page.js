@@ -42,7 +42,9 @@ export default function Home() {
         <Link href="/ficha" className="bg-red-600 text-white text-center py-2 rounded-lg hover:bg-red-700 transition">
           Ficha de Cadastro
         </Link>
-
+      <Link href="/crud" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-600 transition">
+          CRUD de Alunos
+        </Link>
       </div>
     </main>
   );
