@@ -35,7 +35,7 @@ export default function SomaTres() {
     }
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <div className="flex items-center justify-center min-h-screen bg-white">
             <div className="bg-black p-6 rounded-2xl shadow-lg w-80 text-center">
                 <h1 className="text-xl font-bold mb-4">Soma de 3 valores</h1>
 

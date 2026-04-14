@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function () {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gray-900 p-6">
 
@@ -44,6 +44,12 @@ export default function Home() {
         </Link>
       <Link href="/crud" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-600 transition">
           CRUD de Alunos
+        </Link>
+      <Link href="/ConverterCelsius" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-600 transition">
+          Converter Celsius
+        </Link>
+        <Link href="/tarefas" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-600 transition">
+          Gerenciador de Tarefas
         </Link>
       </div>
     </main>

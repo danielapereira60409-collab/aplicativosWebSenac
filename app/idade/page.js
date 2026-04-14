@@ -28,9 +28,9 @@ export default function CalcularIdade() {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-purple-500">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 ">
       <div className="bg-black p-8 rounded-2xl shadow-lg w-80">
-        <h1 className="text-2xl font-bold text-center mb-6 text-gray-700">
+        <h1 className="text-2xl font-bold text-center mb-6 text-blue-500">
           Calcular Idade
         </h1>
 
@@ -43,7 +43,7 @@ export default function CalcularIdade() {
         />
 
         {erro && (
-          <p className="text-red-500 text-sm mb-2">{erro}</p>
+          <p className="text-blue-500 text-sm mb-2">{erro}</p>
         )}
 
         <div className="flex gap-3">

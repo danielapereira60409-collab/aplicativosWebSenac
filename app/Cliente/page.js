@@ -6,7 +6,7 @@ export default function Cliente() {
 
       <div className="bg-black p-6 rounded-xl shadow-md w-full max-w-sm">
         
-        <h1 className="text-xl font-bold text-center text-red-500 mb-6">
+        <h1 className="text-xl font-bold text-center text-blue-500 mb-6">
           Cadastro de Clientes
         </h1>
 
@@ -15,7 +15,7 @@ export default function Cliente() {
         <input
           type="text"
           placeholder="Digite o nome"
-          className="w-full border rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-red-400"
+          className="w-full border rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
 
         {/* CPF */}
@@ -23,7 +23,7 @@ export default function Cliente() {
         <input
           type="text"
           placeholder="Digite o CPF"
-          className="w-full border rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-red-400"
+          className="w-full border rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
 
         {/* Telefone */}
@@ -31,7 +31,7 @@ export default function Cliente() {
         <input
           type="text"
           placeholder="Digite o telefone"
-          className="w-full border rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-red-400"
+          className="w-full border rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
 
         {/* Endereço */}
@@ -39,11 +39,11 @@ export default function Cliente() {
         <input
           type="text"
           placeholder="Digite o endereço"
-          className="w-full border rounded-md p-2 mb-5 focus:outline-none focus:ring-2 focus:ring-red-400"
+          className="w-full border rounded-md p-2 mb-5 focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
 
         {/* Botão */}
-        <button className="w-full bg-red-500 text-white py-2 rounded-md hover:bg-red-600 transition">
+        <button className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition">
           Cadastrar
         </button>
 

@@ -60,7 +60,7 @@ export default function CRUD() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
+    <div className="min-h-screen bg-white flex flex-col items-center p-6">
 
       {/* FORM */}
       <div className="bg-white shadow-md rounded-xl p-5 w-full max-w-md">
@@ -120,7 +120,7 @@ export default function CRUD() {
 
       {/* TABELA */}
       <div className="bg-white text-black shadow-md rounded-xl p-5 w-full max-w-4xl mt-6 overflow-x-auto">
-        <h2 className="text-lg font-semibold mb-3 text-black    ">
+        <h2 className="text-lg font-semibold mb-3 text-black  ">
           Lista de Alunos
         </h2>
 

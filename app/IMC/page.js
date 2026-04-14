@@ -38,14 +38,14 @@ export default function Home() {
 
   // retorno da Tela
   return (
-    <div className="font-sans flex flex-col items-center justify-center min-h-screen p-8">
+    <div className="font-sans flex flex-col bg-white items-center justify-center min-h-screen p-8">
       <h1 className="text-center text-xl font-semibold text-orange-500">
         Calculadora de IMC
       </h1>
 
       <main className="flex flex-col items-center justify-center">
 
-        <div className="bg-gray-300 rounded text-black p-4 flex flex-col gap-y-3">
+        <div className="bg-black rounded text-white p-4 flex flex-col gap-y-3">
 
           <label>
             Peso:

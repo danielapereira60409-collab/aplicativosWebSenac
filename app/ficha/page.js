@@ -20,12 +20,12 @@ export default function FichaAluno() {
     }
 
     return (
-        <div className="h-screen flex items-center justify-center bg-gray-700">
+        <div className="h-screen flex items-center justify-center bg-white">
 
             <div className="flex gap-10">
 
                 {/* FORMULÁRIO */}
-                <div className="bg-white text-black p-5 rounded w-64 flex flex-col gap-2">
+                <div className="bg-black text-white p-5 rounded w-64 flex flex-col gap-2">
                     <h2 className="text-orange-400 text-center mb-2">
                         Ficha do Aluno
                     </h2>
