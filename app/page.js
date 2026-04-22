@@ -52,9 +52,7 @@ export default function () {
       <Link href="/ConverterCelsius" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-700 transition">
           Converter Celsius
         </Link>
-        <Link href="/tarefas" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-700 transition">
-          Gerenciador de Tarefas
-        </Link>
+
         <Link href="/crud2" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-700 transition">
           CRUD com Array
         </Link>
