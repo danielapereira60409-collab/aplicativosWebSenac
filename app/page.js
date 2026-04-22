@@ -51,6 +51,9 @@ export default function () {
         <Link href="/tarefas" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-600 transition">
           Gerenciador de Tarefas
         </Link>
+        <Link href="/crud2" className="bg-gray-500 text-white text-center py-2 rounded-lg hover:bg-gray-600 transition">
+          CRUD com Array
+        </Link>
       </div>
     </main>
   );
