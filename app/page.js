@@ -5,7 +5,7 @@ export default function () {
     <main className="min-h-screen flex flex-col items-center justify-center bg-gray-900 p-6">
 
       {/* Header */}
-      <div className="w-full max-w-md bg-red-500 rounded-xl py-4 shadow-md">
+      <div className="w-full max-w-md bg-blue-500 rounded-xl py-4 shadow-md">
         <h1 className="text-center text-white text-2xl font-bold">
           Home
         </h1>
